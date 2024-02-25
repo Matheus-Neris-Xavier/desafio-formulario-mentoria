@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #E5E5E5;
+    font-family: 'Poppins';
+}
+
+h1, h2 {
+    font-family: 'Staatliches';
+}
+
+body::before {
+    content: '';
+    background: #535971;
+    position: absolute;
+    height: 436px;
+    width: 100%;
+    z-index: -1;
+}
+
+body h1 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: normal;
+    padding-top: 140px;
+}
+
+body p {
+    color: #FFF;
+    font-size: 20px;
+    margin-top: 18px;
+    width: 417px;
+}
+
+.page {
+    width: 750px;
+    margin: auto;
+}
+
+form {
+    margin-top: 58px;
+    background: #FFF;
+    height: 1084px;
+    border-radius: 20px 20px 0px 0px;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    border: none;
+}
+
+.fieldset-personal-information legend,
+.fieldset-mentor-information legend, 
+.fieldset-your-available-times legend { 
+    color: #535971;
+    font-family: 'Staatliches';
+    font-size: 24px;
+    line-height: 34px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #E6E6F0;
+    margin-bottom: 36px;
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.col-2 {
+    display: flex;
+    gap: 22px;
+}
+
+.input-wrapper label {
+    color: #4E4958;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.input-wrapper input {
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid  #E6E6F0;
+    background:  #FAFAFC;
+    margin-bottom: 16px;
+}
+
+.text-name, .text-surname {
+    width: 300px;
+}
+
+.input-wrapper label span {
+    color: #C1BCCC;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 6px;
+}
+
+.fieldset-mentor-information legend {
+    margin-top: 30px;
+}
+
+.fieldset-your-available-times legend {
+    margin-top: 32px;
+}
+
+.col-3 {
+    display: flex;
+}
+
+.text-date {
+    width: 300px;
+}
+
+.text-of {
+    width: 140px;
+    margin-left: 32px;
+}
+
+.text-until {
+    width: 140px;
+    margin-left: 10px;
+}
+
+h2 {
+    color: #535971;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-bottom: 8px;
+}
+
+.second-mentor {
+    margin-top: 16px;
+}
+
+footer {
+    background: #535971;
+    height: 160px;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+}
+
+footer .button {
+    color: #FFF;
+    font-family: 'Staatliches';
+    font-size: 20px;
+    background: #FF5374;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 40px;
+    width: 608px;
+    line-height: 26px;
+    margin: auto;
+}
